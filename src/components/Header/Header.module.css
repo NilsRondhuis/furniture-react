@@ -1,0 +1,21 @@
+.header {
+  padding: 45px 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  display: flex;
+}
+.item:not(:last-child) {
+  margin-right: 80px;
+}
+.link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.4;
+  color: rgba(54, 56, 56, 0.9033);
+}

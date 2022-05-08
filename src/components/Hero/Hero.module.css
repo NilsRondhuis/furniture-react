@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.design {
+  position: relative;
+  margin-right: 117px;
+  width: 460px;
+  height: 715px;
+  background-color: #f1d152;
+}
+.img {
+  position: absolute;
+  left: -50%;
+  top: -10%;
+  width: 700px;
+  height: 815px;
+}
+.box {
+  width: 635px;
+}
+.title {
+  position: relative;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 1.2;
+  color: #363838;
+}
+.title::after {
+  content: '';
+  display: block;
+  margin-top: 25px;
+  width: 185px;
+  height: 1px;
+  background-color: #979797;
+}

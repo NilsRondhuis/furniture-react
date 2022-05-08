@@ -1,0 +1,8 @@
+.hero {
+  padding: 80px 0 100px 0;
+  background-image: url(../../../images/proj/hero/main-bg.jpg);
+  background-repeat: no-repeat;
+}
+.about {
+  padding: 0 30px 100px 30px;
+}
